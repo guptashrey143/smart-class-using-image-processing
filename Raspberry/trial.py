@@ -34,7 +34,7 @@ def generator(img, faceCascade, img_id, user_id):
 ##Function to store the image in the dataset
 
 def dataset_generator(img, id, img_id,batch):
-    cv2.imwrite("/home/pi/Face Recognition/user." + str(id) + "." + str(img_id) + ".jpg", img)
+    cv2.imwrite("/home/pi/Face Recognition/images/user." + str(id) + "." + str(img_id) + ".jpg", img)
 
 
 ##Function to find the image on basis of classifier and return its coordinates
