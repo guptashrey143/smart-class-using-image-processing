@@ -6,4 +6,28 @@ Hardware Requirements:
 3. Leds
 4. LCD Screen
 5. DC Power Supply
-5. Jumper Cables
+6. Jumper Cables
+
+
+For Registration.py:
+The green led turn on if the face is clearly visible to be recorded for the database;
+and red if the face is not clear.
+The modules used are;
+
+1. gpizero
+2. PIL
+3. numpy
+4. pandas
+5. os
+6. datetime
+
+
+For recognition.py:
+The green led turn on if the attendance gets marked as present and red for absent.
+The modules used are;
+1. gpizero
+2. PIL
+3. numpy
+4. pandas
+5. os
+6. datetime
