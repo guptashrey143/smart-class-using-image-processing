@@ -113,19 +113,7 @@ def user_name(user_id):
                     return 'Wrong Batch'
     else:
         return 'no_class'
-    
-# def get_name(user_id):
-#     df = pd.read_csv('student_data.csv')
-#     for i in df.index:
-#             if df['Id'][i] == user_id:
-#                 name = df['Name'][i]
-# #                 return name
-#                 if does_batch_belong(batch_list,df['Batch'][i]):
-#                     name = df['Name'][i]
-#                     write_present(user_id,name)
-#                     return name
-#                 else:
-#                     return 'Wrong Batch'
+
 
 def recognizer_boundary(img, classifier, scaleFactor, minNeighbours, color, clf):
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
